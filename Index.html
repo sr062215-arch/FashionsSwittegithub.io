@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    
+    <header class="header">
+
+        <div class="menu container">
+
+            <a href="#" class="logo">
+                <img src="Logo Marca Fashions .png" alt="Logo">
+            </a>
+            
+            <input type="checkbox" id="menu">
+
+            <label for="menu">
+                <img src="menu.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+           
+            <div>
+                <ul>
+                    <li class="submenu">
+
+                        <img src="car.svg" id="img-carrito" alt="">
+
+                        <div id="carrito">
+
+                            <table id="lista-carrito">
+
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody></tbody>
+
+                            </table>
+
+                            <a href="#" id="vaciar-carrito" class="btn-3">
+                                Vaciar carrito
+                            </a>
+
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+  
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+
+                <div class="swiper-wrapper">
+
+         
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+
+                            <div class="header-txt">
+
+                                <h1>Blusa Elegance</h1>
+                                <p>Blusa moderna y cómoda, perfecta para cualquier ocasión con un estilo fresco y femenino.</p>
+
+                                <div class="prices">
+                                    
+                                    <p class="precio">$650</p>
+                                    <p class="price-1">$800</p>
+                                </div>
+
+                                <a href="#" class="btn-1">Información</a>
+
+                            </div>
+
+                            <div class="header-img">
+                                <img src="hh10.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+
+                            <div class="header-txt">
+
+                                <h1>Blusa Soft Style</h1>
+                                <p>Tela suave y cómoda que brinda un look delicado y moderno para el día a día.</p>
+
+                                <div class="prices">
+                                    <p class="price-1">$550</p>
+                                    <p class="precio">$350</p>
+                                </div>
+
+                                <a href="#" class="btn-1">Información</a>
+
+                            </div>
+
+                            <div class="header-img">
+                                <img src="hh9.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                  
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+
+                            <div class="header-txt">
+
+                                <h1>Blusa Trendy</h1>
+                                <p>Un estilo juvenil y moderno que resalta tu personalidad con elegancia.</p>
+
+                                <div class="prices">
+                                    <p class="price-1">$1,000</p>
+                                    <p class="precio">$790</p>
+                                </div>
+
+                                <a href="#" class="btn-1">Información</a>
+
+                            </div>
+
+                            <div class="header-img">
+                                <img src="hh11.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <hr>
+
+    
+    <section class="promos container" id="lista-1">
+
+        <h2>Promociones</h2>
+
+        <div class="categories">
+
+            
+            <div class="categorie">
+
+                <div class="categorie-1">
+
+                    <h3>Promo 1</h3>
+                    <p>Diseño ligero y elegante que combina fácilmente con jeans, faldas o pantalones.</p>
+
+                    <div class="prices">
+                        <p class="price-1">$600</p>
+                        <p class="precio">$450</p>
+                    </div>
+
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al carrito
+                    </a>
+
+                </div>
+
+                <div class="categorie-img">
+                    <img src="blusa4.jpg" alt="">
+                </div>
+
+            </div>
+
+           
+            <div class="categorie">
+
+                <div class="categorie-1">
+
+                    <h3>Promo 2</h3>
+                    <p>Moda femenina con detalles delicados y modernos.</p>
+                    <div class="prices">
+                        <p class="price-1">$550</p>
+                        <p class="precio">$250</p>
+                    </div>
+
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al carrito
+                    </a>
+
+                </div>
+
+                <div class="categorie-img">
+                    <img src="hh8.jpg" alt="">
+                </div>
+
+            </div>
+
+           
+            <div class="categorie">
+
+                <div class="categorie-1">
+
+                    <h3>Promo 3</h3>
+                    <p>La combinación perfecta entre comodidad y glamour.</p>
+
+                    <div class="prices">
+                        <p class="price-1">$850</p>
+                        <p class="precio">$750</p>
+                    </div>
+
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al carrito
+                    </a>
+
+                </div>
+
+                <div class="categorie-img">
+                    <img src="descarga (5).jpg" alt="">
+                </div>
+
+            </div>
+
+          
+            <div class="categorie">
+
+                <div class="categorie-1">
+
+                    <h3>Promo 4</h3>
+                    <p>Comodidad y estilo para tu outfit</p>
+
+                    <div class="prices">
+                        <p class="price-1">$1,950</p>
+                        <p class="precio">$990</p>
+                    </div>
+
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al carrito
+                    </a>
+
+                </div>
+
+                <div class="categorie-img">
+                    <img src="descarga (6).jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+   
+    <section class="products container" id="lista-2">
+
+        <h2>Productos</h2>
+
+        <div class="swiper mySwiper-2">
+
+            <div class="swiper-wrapper">
+
+            
+                <div class="swiper-slide">
+
+                    <div class="product">
+
+                        <img src="descarga (7).jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Falda Denim Glow</h3>
+                            <p>Falda jean moderna y cómoda, perfecta para crear looks casuales con mucho estilo.</P>
+
+                            <p class="precio">$200</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+             
+                <div class="swiper-slide">
+
+                    <div class="product">
+
+                        <img src="descarga (8).jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Falda Urban Blue</h3>
+
+                            <p>Diseño juvenil y versátil ideal para combinar con cualquier tipo de blusa.</p>
+
+                            <p class="precio">$1,300</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+         
+                <div class="swiper-slide">
+
+                    <div class="product">
+
+                        <img src="descarga (9).jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Falda Sky Denim</h3>
+
+                            <p>Un estilo fresco y femenino que resalta tu outfit en cualquier ocasión.</p>
+
+                            <p class="precio">$2,200</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+              
+                <div class="swiper-slide">
+
+                    <div class="product">
+
+                        <img src="descarga (10).jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Falda Chic Jean</h3>
+
+                            <p>Falda elegante y moderna con un diseño cómodo y atractivo.</p>
+
+                            <p class="precio">$890</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+  
+    <section class="products container" id="lista-3">
+
+        <h2>Nuevos Productos</h2>
+
+        <div class="swiper mySwiper-3">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="product">
+
+                        <img src="hh2.jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Nuevo</h3>
+
+                            <p>Ideal para mujeres que aman verse modernas y auténticas.</p>
+
+                            <p class="precio">$350</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+
+                        <img src="hh4.jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Nuevo</h3>
+
+                            <p>Blusa fashion con un diseño juvenil y atractivo.</p>
+
+                            <p class="precio">$400</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+
+                        <img src="hh3.jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Nuevo</h3>
+
+                            <p>Diseño fresco, cómodo y lleno de estilo.</p>
+
+                            <p class="precio">$550</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+
+                        <img src="hh5.jpg" alt="">
+
+                        <div class="product-txt">
+
+                            <h3>Nuevo</h3>
+
+                            <p>La opción perfecta para un look moderno y femenino.</p>
+
+                            <p class="precio">$2,000</p>
+
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">
+                                Agregar al carrito
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    
+    <footer class="footer container">
+
+        <div class="link">
+            <h3>Lorem</h3>
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+        </div>
+
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
